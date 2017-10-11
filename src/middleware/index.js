@@ -27,11 +27,11 @@ export default new Router()
   cookieParser(),
   requestReporter,
   bindResponseMethods,
-  // ROUTERS 
+  // ROUTERS
   routerAuth,
   routerPhoto,
   routerProfile,
   // ERROR HANDLERS
-  fourOhFour, 
+  fourOhFour,
   errorHandler,
 ])
